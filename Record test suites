@@ -1,0 +1,28 @@
+# Test Case: User Registration
+
+## Objective
+Verify that a new user can successfully register.
+
+## Precondition
+The user is on the registration page.
+
+## Test Steps
+1. Navigate to the registration page.
+2. Enter valid credentials:
+   - Username: testuser
+   - Email: testuser@example.com
+   - Password: Test@123
+3. Submit the registration form.
+
+## Expected Result
+User account is created, and a confirmation email is sent.
+
+## Test Data
+| Field      | Value              |
+|------------|--------------------|
+| Username   | testuser           |
+| Email      | testuser@example.com |
+| Password   | Test@123           |
+
+## Notes
+Ensure the email service is active.
